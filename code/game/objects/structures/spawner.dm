@@ -164,8 +164,6 @@
 	/mob/living/simple_animal/hostile/retaliate/rogue/minotaur/axe/female = 3,
 	/mob/living/simple_animal/hostile/retaliate/rogue/wolf/poison = 5,
 	/mob/living/simple_animal/hostile/retaliate/rogue/wolf = 8,
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider = 3,
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated = 1,
 	/mob/living/simple_animal/hostile/retaliate/rogue/mossback = 6,
 	/mob/living/simple_animal/hostile/retaliate/rogue/bogtroll = 4,
 	/mob/living/simple_animal/hostile/retaliate/rogue/cavetroll = 4,
@@ -192,12 +190,6 @@
 	max_mobs = 3
 	mob_types = list(
 	/mob/living/simple_animal/hostile/retaliate/rogue/mossback = 6)
-
-/obj/structure/spawner/monster/spider
-	max_mobs = 3
-	mob_types = list(
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider = 3,
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated = 1)
 
 /obj/structure/spawner/monster/troll
 	max_mobs = 2
@@ -264,8 +256,6 @@
 	/mob/living/simple_animal/hostile/retaliate/rogue/minotaur/axe/female = 3,
 	/mob/living/simple_animal/hostile/retaliate/rogue/wolf/poison = 5,
 	/mob/living/simple_animal/hostile/retaliate/rogue/wolf = 8,
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider = 3,
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated = 1,
 	/mob/living/simple_animal/hostile/retaliate/rogue/mossback = 6,
 	/mob/living/simple_animal/hostile/retaliate/rogue/bogtroll = 4,
 	/mob/living/simple_animal/hostile/retaliate/rogue/cavetroll = 4,
@@ -300,37 +290,6 @@
 	mob_types = list(
 	/mob/living/simple_animal/hostile/retaliate/rogue/wolf/werewolf/safe/horny = 8)
 
-/obj/structure/spawner/invisible/monster/spider
-	max_mobs = 2
-	mob_types = list(
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider = 3,
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/hunter = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/hunter/ice = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/hunter/viper = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/ice = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/nurse = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/nurse/ice = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/nurse/midwife = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/tarantula = 1)
-	faction = list("spiders")
-
-/obj/structure/spawner/invisible/monster/spider/hunter
-	mob_types = list(
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/hunter = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/hunter/ice = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/hunter/viper = 1,
-)
-
-/obj/structure/spawner/invisible/monster/spider/hardest
-	mob_types = list(
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/ice = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/nurse = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/nurse/ice = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/nurse/midwife = 1,
-	/mob/living/simple_animal/hostile/retaliate/rogue/poison/giant_spider/tarantula = 1
-)
 
 /obj/structure/spawner/invisible/monster/mossback
 	max_mobs = 1
@@ -444,7 +403,6 @@
 	mobs_to_spawn = 2
 	spawn_interval = 6000
 	ambush_mobs = list(/mob/living/simple_animal/hostile/retaliate/rogue/wolf = 10,
-	/mob/living/simple_animal/hostile/retaliate/rogue/spider = 5,
 	/mob/living/simple_animal/hostile/retaliate/rogue/bigrat = 15)
 
 /obj/effect/mob_spawner/skeleton/lich
